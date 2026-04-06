@@ -16,6 +16,12 @@ using only NumPy — no sklearn, no PyTorch shortcuts.
 - Decision boundary visualization
 - Test Accuracy: **97.5%** | Verified against sklearn
 
+### 03 - Neural Networks  
+- Separating Concentric circle problem
+- 10 Digit classification on MNIST dataset
+- used PyTorch, Dropout, CrossEntropyLoss, BCELoss, Data Normalization usink SKlearn StandarScaler
+- Concentric Circle Test Accuracy: **93.5%** | MNIST Digit Classification Test Accuracy: **98.6%**
+
 
 ## Environment Setup
 ```bash
@@ -32,5 +38,5 @@ Python · NumPy · Matplotlib · Scikit-learn · Jupyter
 ## Progress
 - [x] Linear Regression
 - [x] Logistic Regression
-- [ ] Neural Network from Scratch
+- [x] Neural Network from Scratch
 - [ ] Classical ML Comparison
