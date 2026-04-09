@@ -38,5 +38,5 @@ Python · NumPy · Matplotlib · Scikit-learn · Jupyter
 ## Progress
 - [x] Linear Regression
 - [x] Logistic Regression
-- [x] Neural Network from Scratch
+- [x] Neural Network using PyTorch
 - [ ] Classical ML Comparison
