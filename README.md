@@ -11,10 +11,12 @@ using only NumPy — no sklearn, no PyTorch shortcuts.
 - Final cost: 0.10 | Predictions accurate within 0.1
 
 ### 02 - Logistic Regression  
-- Binary classification from scratch
+- Binary classification from scratch | Cat vs non cat classification |
 - Sigmoid function, binary cross entropy loss
 - Decision boundary visualization
 - Test Accuracy: **97.5%** | Verified against sklearn
+
+
 
 ### 03 - Neural Networks  
 - Separating Concentric circle problem
