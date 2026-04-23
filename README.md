@@ -31,7 +31,14 @@ using only NumPy — no sklearn, no PyTorch shortcuts.
 - Implemented advanced optimization techniques to prevent overfitting and learning instability:
   - **Data Augmentation:** Random rotations, flips, and zooms
   - **Callbacks:** Early Stopping (to capture optimal weights) and ReduceLROnPlateau
-- Best Validation Accuracy: **94.17%**
+- Best Validation Accuracy: **94.17%**, Test Accuracy : **88.67%**
+
+- - Binary classification on custom dataset | Happy vs. Not Happy facial recognition
+- Built a custom CNN architecture using pyTorch
+- Layers: ZeroPadding, Conv2D, BatchNormalization, MaxPool2D, Flatten, Dense
+- Implemented advanced optimization techniques to prevent overfitting and learning instability:
+  - **Callbacks:** Early Stopping (to capture optimal weights) and ReduceLROnPlateau
+- Best Validation Accuracy: **97.5%**, Test Accuracy : **95.33%**
 
 
 ## Environment Setup
