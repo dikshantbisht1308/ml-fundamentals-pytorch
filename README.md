@@ -35,10 +35,16 @@ using only NumPy — no sklearn, no PyTorch shortcuts.
 
 - - Binary classification on custom dataset | Happy vs. Not Happy facial recognition
 - Built a custom CNN architecture using pyTorch
-- Layers: ZeroPadding, Conv2D, BatchNormalization, MaxPool2D, Flatten, Dense
+- Layers: ZeroPadding, Conv2D, BatchNormalization, MaxPool, Flatten, Dense
 - Implemented advanced optimization techniques to prevent overfitting and learning instability:
   - **Callbacks:** Early Stopping (to capture optimal weights) and ReduceLROnPlateau
 - Best Validation Accuracy: **97.5%**, Test Accuracy : **95.33%**
+
+- Multiclass Classification on custom dataset | Sign language dataset with 6 classes
+- Build a custom CNN architecture using Tensorflow and keras functional API
+- Layers: Augmentation, Convolution, MaxPool, flatten, Dense
+- Best Validation Accuracy : **93.6%**, Test Accuracy : **92.5%**
+
 
 
 ## Environment Setup
@@ -51,7 +57,7 @@ pip install -r requirements.txt
 ```
 
 ## Stack
-Python · NumPy · Matplotlib · Scikit-learn · Jupyter
+Python · NumPy · Matplotlib · Scikit-learn · Jupyter . PyTorch . Tensorflow . Keras
 
 ## Progress
 - [x] Linear Regression
