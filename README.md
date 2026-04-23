@@ -24,6 +24,15 @@ using only NumPy — no sklearn, no PyTorch shortcuts.
 - used PyTorch, Dropout, CrossEntropyLoss, BCELoss, Data Normalization usink SKlearn StandarScaler
 - Concentric Circle Test Accuracy: **93.5%** | MNIST Digit Classification Test Accuracy: **98.6%**
 
+### 04 - Convolutional Neural Networks (CNN) 
+- Binary classification on custom dataset | Happy vs. Not Happy facial recognition
+- Built a custom CNN architecture using TensorFlow and the Keras Sequential API
+- Layers: ZeroPadding, Conv2D, BatchNormalization, MaxPool2D, Flatten, Dense
+- Implemented advanced optimization techniques to prevent overfitting and learning instability:
+  - **Data Augmentation:** Random rotations, flips, and zooms
+  - **Callbacks:** Early Stopping (to capture optimal weights) and ReduceLROnPlateau
+- Best Validation Accuracy: **94.17%**
+
 
 ## Environment Setup
 ```bash
@@ -41,4 +50,5 @@ Python · NumPy · Matplotlib · Scikit-learn · Jupyter
 - [x] Linear Regression
 - [x] Logistic Regression
 - [x] Neural Network using PyTorch
+- [x] CNN using tensorflow and Keras Sequential 
 - [ ] Classical ML Comparison
