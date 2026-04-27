@@ -219,6 +219,7 @@ lightning_logs/
 # Data folders
 data/
 datasets/
+dataset/
 
 # Environment
 .env
